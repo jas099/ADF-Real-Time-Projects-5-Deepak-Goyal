@@ -1,0 +1,24 @@
+{
+	"name": "trigger_pipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Exceute pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-12-31T14:26:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
